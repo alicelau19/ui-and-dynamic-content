@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UI and Dynamic Content</title>
+
+    <!-- linking stylesheet -->
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- linking Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/7adcc43fab.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <!-- Masthead -->
+      <img
+        class="masthead-image"
+        src="./img/masthead.jpg"
+        alt="fresh fruit image"
+      />
+      <h1 class="masthead-title">It's Shopping Time!</h1>
+    </header>
+    <main class="main-content">
+      <section>
+        <img
+          class="basket-icon"
+          src="./img/basket-icon.png"
+          alt="basket icon"
+        />
+        <div class="widget-title">
+          <h1>BUY</h1>
+          <h1>GROCERIES</h1>
+        </div>
+        <br />
+        <p class="widget-text">What do you need to buy today?</p>
+        <input
+          type="text"
+          id="input-item"
+          autofocus
+          placeholder="Input item here"
+        />
+        <button type="submit" id="button" onclick="handleClick()">
+          ADD TO LIST
+        </button>
+      </section>
+      <p id="error-message"></p>
+      <ul id="all-items"></ul>
+    </main>
+    <footer class="footer">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-google"></i>
+      <i class="fab fa-pinterest"></i>
+    </footer>
+    <script src="./js/index.js"></script>
+  </body>
+</html>

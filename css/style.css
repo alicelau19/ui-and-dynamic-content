@@ -1,0 +1,104 @@
+/* Colour
+text: #000000
+widget-background: #F0F8FF
+accent coloiur: #70BCFF
+*/
+
+html {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-width: 100vw;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6rem;
+  background-color: #fffafa;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+li,
+label,
+input,
+select,
+textarea {
+  font-size: 1rem;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.masthead-image {
+  width: 100%;
+}
+
+.masthead-title {
+  position: absolute;
+
+  top: 20%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: black;
+  background-color: #f0f8ff;
+  padding: 1rem;
+}
+
+.main-content {
+  background-color: aliceblue;
+  min-width: 50%;
+  color: black;
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 45rem;
+  border: solid #70bcff 2px;
+}
+
+.basket-icon {
+  width: 15rem;
+  margin: 0 auto;
+  display: flex;
+}
+
+.widget-title {
+  text-align: center;
+  margin: 0 auto;
+  font-size: xx-large;
+}
+
+.widget-text {
+  text-align: center;
+}
+
+#input-item {
+  display: flex;
+  width: 95%;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  justify-content: center;
+}
+
+#button {
+  background-color: #70bcff;
+  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #70bcff;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.footer i {
+  margin: 1rem;
+}
